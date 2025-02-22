@@ -1,0 +1,73 @@
+* {
+  background-color: rgb(29, 28, 28);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titulo-video {
+  color: aliceblue;
+  justify-content: center;
+  display: flex;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.ancora {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.setaprev {
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+}
+
+.comments {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  padding-bottom: 20px;
+}
+
+.thumbs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.thumbs img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo */
+}
+
+.citacao {
+  background-color: rgb(48, 46, 43);
+  color: aliceblue;
+  padding: 5px 10px; /* Adiciona espaçamento interno */
+  display: inline-block; /* Faz o fundo ocupar apenas o tamanho do texto */
+  border-radius: 5px; /* Opcional: deixa os cantos arredondados */
+  text-align: center; /* Garante que o texto fique alinhado */
+  font-family: Arial, Helvetica, sans-serif;
+}
